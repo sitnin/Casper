@@ -267,7 +267,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
+    color: #000; /*#fff*/
     font-weight: 600;
     font-size: 1.5rem;
     opacity: 0.8;
