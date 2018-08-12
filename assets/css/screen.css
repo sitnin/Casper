@@ -267,9 +267,15 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #000; /*#fff*/
+    color: #fff;
     font-weight: 600;
+    font-size: 1.5rem;
     opacity: 0.8;
+}
+
+.home_navbar .nav li a {
+    color: #000;
+    font-weight: 600;
 }
 
 .nav li a:hover {

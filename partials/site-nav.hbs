@@ -8,7 +8,9 @@
             {{/if}}
         {{/is}}
         {{#if @blog.navigation}}
-            {{navigation}}
+            {{#is "home"}}<div class="home_navbar">{{/is}}
+                {{navigation}}
+            {{#is "home"}}</div>{{/is}}
         {{/if}}
     </div>
     <div class="site-nav-right">
