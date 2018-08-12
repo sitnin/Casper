@@ -2,9 +2,9 @@
     "name": "casper-custom",
     "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
     "demo": "https://demo.ghost.io",
-    "version": "2.6.4",
+    "version": "2.4.2.12",
     "engines": {
-        "ghost": ">=2.0.0"
+        "ghost": ">=1.2.0"
     },
     "license": "MIT",
     "screenshots": {
@@ -12,9 +12,8 @@
         "mobile": "assets/screenshot-mobile.jpg"
     },
     "scripts": {
-        "dev": "gulp",
-        "zip": "gulp zip",
-        "test": "gscan ."
+      "dev": "gulp",
+      "zip": "gulp zip"
     },
     "author": {
         "name": "Ghost Foundation",
@@ -30,8 +29,7 @@
     },
     "keywords": [
         "ghost",
-        "theme",
-        "ghost-theme"
+        "theme"
     ],
     "repository": {
         "type": "git",
@@ -42,7 +40,6 @@
     "devDependencies": {
         "autoprefixer": "6.3.6",
         "cssnano": "3.7.1",
-        "gscan": "^2.0.0",
         "gulp": "3.9.1",
         "gulp-livereload": "3.8.1",
         "gulp-postcss": "6.1.1",
@@ -52,9 +49,7 @@
         "gulp-zip": "4.0.0",
         "postcss-color-function": "2.0.1",
         "postcss-custom-properties": "5.0.1",
-        "postcss-easy-import": "1.0.1",
-        "gulp-filter": "5.1.0",
-        "gulp-uglify": "3.0.1"
+        "postcss-easy-import": "1.0.1"
     },
     "config": {
         "posts_per_page": 25
